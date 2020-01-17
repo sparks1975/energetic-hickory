@@ -14,11 +14,11 @@ images:
       fallback: "/images/stopper-lh.jpg"
   featured:
     thumbnail:
-      optimized: "/images/plant1-featured.webp"
-      fallback: "/images/plant1-featured.jpg"
+      optimized: "/images/stopper-lh.jpg"
+      fallback: "/images/stopper-lh.jpg"
     original:
-      optimized: "/images/plant1-featured-lg.webp"
-      fallback: "/images/plant1-featured-lg.jpg"
+      optimized: "/images/stopper-lh.jpg"
+      fallback: "/images/stopper-lh.jpg"
 category: stopper
 featured: true
 section: Store
