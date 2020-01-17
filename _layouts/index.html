@@ -15,11 +15,7 @@ layout: body
         
         {% include featured_products.html product_pages=featured_product_pages %}
     </section>
-
-    <section class="content__row">
-        I am bob.
-    </section>
-
+    
     <section class="content__row">
         {% assign category_pages = '/category' | get_pages | sort: 'name' %}
         {% assign categoryIndex = 0 %}
