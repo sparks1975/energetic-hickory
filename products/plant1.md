@@ -1,6 +1,6 @@
 ---
 id: "1"
-title: Nulla suscipit
+title: Longhorn Stopper
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit
   velit lectus, vitae efficitur quam mollis eget. Integer porta at nisl eget tincidunt.
 price: '49.40'
@@ -19,7 +19,7 @@ images:
     original:
       optimized: "/images/plant1-featured-lg.webp"
       fallback: "/images/plant1-featured-lg.jpg"
-category: bigplants
+category: stopper
 featured: true
 section: Store
 layout: product
