@@ -71,7 +71,7 @@ fields:
   label: Category
   config:
     source:
-      type: custom
+      type: simple
     options:
     - summer
     - europe
