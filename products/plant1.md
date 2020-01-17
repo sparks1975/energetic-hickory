@@ -10,8 +10,8 @@ images:
       optimized: "/images/stopper-lh.jpg"
       fallback: "/images/stopper-lh.jpg"
     original:
-      optimized: "/images/plant1-lg.webp"
-      fallback: "/images/plant1-lg.jpg"
+      optimized: "/images/stopper-lh.jpg"
+      fallback: "/images/stopper-lh.jpg"
   featured:
     thumbnail:
       optimized: "/images/plant1-featured.webp"
