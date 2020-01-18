@@ -14,8 +14,8 @@ images:
       fallback: "/images/pen-50.jpg"
   featured:
     thumbnail:
-      optimized: "/images/plant5-featured.webp"
-      fallback: "/images/plant5-featured.jpg"
+      optimized: "/images/pen-50.jpg"
+      fallback: "/images/pen-50.jpg"
     original:
       optimized: "/images/plant5-featured-lg.webp"
       fallback: "/images/plant5-featured-lg.jpg"
