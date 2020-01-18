@@ -78,6 +78,7 @@ fields:
     - bigplants
     - cactuses
     - stopper
+    - pens
 - type: boolean
   name: featured
   label: Featured
