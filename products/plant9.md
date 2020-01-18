@@ -13,8 +13,8 @@ images:
       fallback: "/images/stopper-texas-seal.jpg"
   featured:
     thumbnail:
-      optimized: "/images/plant9-featured.webp"
-      fallback: "/images/plant9-featured.jpg"
+      optimized: "/images/stopper-texas-seal.jpg"
+      fallback: "/images/stopper-texas-seal.jpg"
     original:
       optimized: "/images/plant9-featured-lg.webp"
       fallback: "/images/plant9-featured-lg.jpg"
