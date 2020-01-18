@@ -1,29 +1,29 @@
 ---
-id: '2'
-title: Integer porta
+id: "2"
+title: Lone Star Stopper
 description: Suspendisse efficitur eget erat sit amet efficitur.
 price: '99.00'
 images:
   default:
     thumbnail:
-      optimized: /images/plant2.webp
-      fallback: /images/plant2.jpg
+      optimized: "/images/stopper-star.jpg"
+      fallback: "/images/stopper-star.jpg"
     original:
-      optimized: /images/plant2-lg.webp
-      fallback: /images/plant2-lg.jpg
+      optimized: "/images/stopper-star.jpg"
+      fallback: "/images/stopper-star.jpg"
   featured:
     thumbnail:
-      optimized: /images/plant2-featured.webp
-      fallback: /images/plant2-featured.jpg
+      optimized: "/images/plant2-featured.webp"
+      fallback: "/images/plant2-featured.jpg"
     original:
-      optimized: /images/plant2-featured-lg.webp
-      fallback: /images/plant2-featured-lg.jpg
-category: cactuses
+      optimized: "/images/plant2-featured-lg.webp"
+      fallback: "/images/plant2-featured-lg.jpg"
+category: stopper
 featured: true
 section: Store
 layout: product
----
 
-# Integer porta
+---
+# Lone Star Stopper
 
 Aliquam quis laoreet lectus. Proin non mattis nulla, quis posuere mi. Mauris venenatis, magna at pellentesque commodo, lectus risus vehicula elit, nec dignissim nisl sapien id leo. Nulla non pretium metus, vitae finibus lectus. Aliquam in posuere risus.
