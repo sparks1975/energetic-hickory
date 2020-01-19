@@ -6,12 +6,13 @@
     <nav class="nav{% assign isHome_is_not_empty = isHome | is_not_empty %}{% if isHome_is_not_empty %} nav--light{% endif %}{% if isHome != true %} nav--dark{% endif %}">
         <div class="nav__logo">
             <a href="/">
-                {% if isHome == true or page.layout == 'product' %}
+                {% if isHome == true %}
+                <!-- {% if isHome == true or page.layout == 'product' %} -->
                     
-                    {% include picture.html image=site.logos.light cssClass='footer_logo nav__logo-image' alt='Planty logo' %}
+                    {% include picture.html image=site.logos.light cssClass='footer_logo nav__logo-image' alt='Midwest Creek' %}
                 {% else %}
                     
-                    {% include picture.html image=site.logos.dark cssClass='footer_logo nav__logo-image' alt='Planty logo' %}
+                    {% include picture.html image=site.logos.dark cssClass='footer_logo nav__logo-image' alt='Midwest Creek' %}
                 {% endif %}
             </a>
         </div>
