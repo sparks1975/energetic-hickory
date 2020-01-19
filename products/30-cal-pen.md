@@ -19,7 +19,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: pens
 featured: false
 section: ''
 
