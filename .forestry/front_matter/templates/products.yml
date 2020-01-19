@@ -100,6 +100,7 @@ fields:
   config:
     required: true
 pages:
+- products/22-cal-pen.md
 - products/30-cal-pen.md
 - products/50_cal_pen.md
 - products/lone_star_stopper.md
