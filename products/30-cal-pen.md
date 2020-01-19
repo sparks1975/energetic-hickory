@@ -21,6 +21,6 @@ images:
       fallback: ''
 category: pens
 featured: false
-section: ''
+section: Store
 
 ---
