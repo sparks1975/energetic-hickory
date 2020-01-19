@@ -100,7 +100,7 @@ fields:
   config:
     required: true
 pages:
-- products/plant1.md
+- products/longhorn_stopper.md
 - products/plant2.md
 - products/plant3.md
 - products/plant4.md
