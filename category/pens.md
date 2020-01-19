@@ -1,6 +1,6 @@
 ---
 layout: category
-slug: pen
+slug: pens
 title: Pens
 section: Store
 menu:
