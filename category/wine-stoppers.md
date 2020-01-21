@@ -1,6 +1,6 @@
 ---
 layout: category
-slug: stopper
+slug: wine-stoppers
 title: Wine Stoppers
 section: Store
 menu:
