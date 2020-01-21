@@ -1,6 +1,6 @@
 {% assign product_pages = include.product_pages %}
 <ul class="product-grid">
-    {% for product_page in product_pages %}
+    {% for product_page in product_pages limit:4 %}
         <li class="product-grid__item">
             <figure data-href="{{ product_page.url | relative_url }}" class="js-figure-link product-grid__item-figure js-figure-link">
                 
