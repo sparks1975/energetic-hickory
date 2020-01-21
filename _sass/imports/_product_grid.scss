@@ -1,7 +1,6 @@
 .product-grid {
   padding: 0;
   margin: 0;
-
   display: grid;
   align-items: flex-start;
   justify-content: space-between;
@@ -43,6 +42,8 @@
     position: relative;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    height: auto;
     cursor: pointer;
     &--featured {
       box-shadow: 0px 20px 52px rgba(0, 0, 0, 0.31);
@@ -65,8 +66,8 @@
       grid-column: auto / span 12;
     }
 
-    @include desktop-sm-min {
-      grid-column: auto / span 8;
+    @include desktop-min {
+      grid-column: auto / span 6;
     }
   }
 
