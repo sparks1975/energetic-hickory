@@ -58,13 +58,14 @@
   &__item {
     width: 100%;
     list-style: none;
-    margin: 0;
+    margin: 0 0 10px;
     margin-bottom: $spacing--unit*10;
     grid-column: auto / span 24;
     user-select: none; // Prevents selecting text when scroll is active
 
     @include tablet-min {
       grid-column: auto / span 12;
+      margin: 0;
     }
 
     @include desktop-min {
