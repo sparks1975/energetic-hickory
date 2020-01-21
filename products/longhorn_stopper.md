@@ -19,7 +19,7 @@ images:
     original:
       optimized: "/images/stopper-lh.jpg"
       fallback: "/images/stopper-lh.jpg"
-category: stopper
+category: wine-stoppers
 featured: true
 section: Store
 layout: product
