@@ -78,19 +78,19 @@
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   }
 
-  &--draggable {
-    @include smaller-than-tablet {
-      display: inline-flex;
-    }
-  }
-  &--draggable & {
-    &__item {
-      @include smaller-than-tablet {
-        min-width: 270px;
-        &:not(:last-child) {
-          margin-right: 25px;
-        }
-      }
-    }
-  }
+  // &--draggable {
+  //   @include smaller-than-tablet {
+  //     display: inline-flex;
+  //   }
+  // }
+  // &--draggable & {
+  //   &__item {
+  //     @include smaller-than-tablet {
+  //       min-width: 270px;
+  //       &:not(:last-child) {
+  //         margin-right: 25px;
+  //       }
+  //     }
+  //   }
+  // }
 }
