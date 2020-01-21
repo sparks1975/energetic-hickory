@@ -5,7 +5,7 @@
   display: grid;
   align-items: flex-start;
   justify-content: space-between;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-template-columns: repeat(24, 1fr);
   grid-row-gap: 15px;
   grid-column-gap: 15px;
 
@@ -58,7 +58,16 @@
     list-style: none;
     margin: 0;
     margin-bottom: $spacing--unit*10;
+    grid-column: auto / span 24;
     user-select: none; // Prevents selecting text when scroll is active
+
+    @include tablet-min {
+      grid-column: auto / span 12;
+    }
+
+    @include desktop-sm-min {
+      grid-column: auto / span 8;
+    }
   }
 
   &__item-buy {
