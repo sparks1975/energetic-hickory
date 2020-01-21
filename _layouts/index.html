@@ -27,7 +27,7 @@ layout: body
                 {% if count > 0 %}
                     <h2 class="content__row-title">{{ category_page.title }}</h2>
                     
-                    {% include product_grid.html product_pages=category_product_pages cssClass='product-grid--draggable' %}
+                    {% include product_grid.html product_pages=category_product_pages %}
                 {% endif %}
             {% endif %}
         {% endfor %}
