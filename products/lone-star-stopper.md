@@ -1,6 +1,6 @@
 ---
 id: "3"
-title: Lone Star Stopper
+title: Test Star Stopper
 description: Suspendisse efficitur eget erat sit amet efficitur.
 price: '99.00'
 images:
@@ -22,9 +22,8 @@ category: stopper
 featured: true
 section: Store
 layout: product
-published: false
 
 ---
-# Lone Star Stopper
+# Test Star Stopper
 
 Aliquam quis laoreet lectus. Proin non mattis nulla, quis posuere mi. Mauris venenatis, magna at pellentesque commodo, lectus risus vehicula elit, nec dignissim nisl sapien id leo. Nulla non pretium metus, vitae finibus lectus. Aliquam in posuere risus.
