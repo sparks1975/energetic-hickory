@@ -15,8 +15,8 @@
   }
 
   &__icon {
-    margin-bottom: $spacing--unit*4;
-    width: fit-content;
+    max-width: 30px;
+    margin: 0 auto $spacing--unit*4;
   }
 
   &__text {
