@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant9-featured-lg.webp"
       fallback: "/images/plant9-featured-lg.jpg"
-category: stopper
+category: wine-stoppers
 featured: true
 section: Store
 layout: product
