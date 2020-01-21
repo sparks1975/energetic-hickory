@@ -77,8 +77,8 @@ fields:
     - europe
     - bigplants
     - cactuses
-    - stopper
     - pens
+    - wine-stoppers
 - type: boolean
   name: featured
   label: Featured
