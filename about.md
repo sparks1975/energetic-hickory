@@ -1,30 +1,22 @@
 ---
 title: About
-headline: We are Planty
-introduction: Well, not really. We’re [Snipcart](http://bit.ly/2YB7AUL)—a bunch of
-  geeks from Québec City. Planty is a theme we built for [Stackbit](https://www.stackbit.com/),
-  a killer JAMstack site-builder. To enable e-commerce on Planty, you’ll need to [sign
-  up for Snipcart](http://bit.ly/2YzKmhP). Testing is forever free, no credit card
-  required.
+headline: We are Midwest Creek
+introduction: At Midwest Creek, we believe in making our products the old-fashioned
+  way, by hand. From custom wine stoppers to pens our products are crafted with precision
+  and care.
 bulletpoints:
-- title: We love plants
-  description: Now THAT is true, but we love web development even more. We talk about
-    it on our blog, like, [a lot](http://bit.ly/2YA6999). We often craft live demos
-    and open source these bad boys [on GitHub](https://github.com/snipcart). Matter
-    of fact, this Planty theme [is open source too](https://github.com/snipcart/stackbit-theme-planty)!
-    If you spot any bugs, open an issue, and we’ll fire our junior dev. Just kidding
-    Michael, you’re good.
+- title: Handmade Quality
+  description: 'If you have ever wanted a product that was made by hand with love
+    and care, we have what you are looking for.  '
   image:
-    optimized: images/nan_talk.webp
-    fallback: images/nan_talk.jpg
-- title: We think plants are the future
-  description: Word. But good **code** _can_ solve a lots of problems, too. New _and_
-    old. That’s why we help beginners get started with web development through free
-    content and tools, like this theme. We also believe [the JAMstack](https://jamstack.org/)
-    might be one solid pillar on which we build that future.
+    optimized: "/images/hero.jpg"
+    fallback: "/images/hero.jpg"
+- title: Precision Craftsmanship
+  description: Our products are made to give you a quality, long lasting experience.
+    We go the extra mile to ensure you are receiving a product that is made to last.
   image:
-    optimized: images/team.webp
-    fallback: images/team.jpg
+    optimized: "/images/promo-1.jpg"
+    fallback: "/images/promo-1.jpg"
 layout: about
 menu:
   main:
