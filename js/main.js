@@ -627,62 +627,62 @@ function stopScroll() { document.body.style.overflow = 'hidden' }
 function startScroll() { document.body.style.overflow = 'initial' }
 
 // PRODUCT DRAG ACTION
-let draggableItems = document.querySelectorAll('.product-grid--draggable')
-let lastCursorX = null
-draggableItems.forEach((element) => {
-  element.addEventListener("touchstart", elementStateHandler, false)
-  element.addEventListener("touchend", elementStateHandler, false)
-  element.addEventListener("touchmove", moveHandler, false)
+// let draggableItems = document.querySelectorAll('.product-grid--draggable')
+// let lastCursorX = null
+// draggableItems.forEach((element) => {
+//   element.addEventListener("touchstart", elementStateHandler, false)
+//   element.addEventListener("touchend", elementStateHandler, false)
+//   element.addEventListener("touchmove", moveHandler, false)
 
-  element.isActive = false
-  element.addEventListener("mousedown", elementStateHandler, false)
-  element.addEventListener("mouseup", elementStateHandler, false)
-  element.addEventListener("mousemove", moveHandler, false)
-})
+//   element.isActive = false
+//   element.addEventListener("mousedown", elementStateHandler, false)
+//   element.addEventListener("mouseup", elementStateHandler, false)
+//   element.addEventListener("mousemove", moveHandler, false)
+// })
 
-function elementStateHandler(event) { 
-  let target = event.currentTarget
-  if (event.type == "mousedown" || event.type == "touchstart") {
-    target.isActive = true
-    return
-  }
+// function elementStateHandler(event) { 
+//   let target = event.currentTarget
+//   if (event.type == "mousedown" || event.type == "touchstart") {
+//     target.isActive = true
+//     return
+//   }
 
-  if (event.type == "mouseup" || event.type == "touchend") {
-    target.isActive = false
-    lastCursorX = null
-    return
-  }
-}
+//   if (event.type == "mouseup" || event.type == "touchend") {
+//     target.isActive = false
+//     lastCursorX = null
+//     return
+//   }
+// }
 
-function moveHandler(event) {
-  let target = event.currentTarget
-  if (event.type == "touchmove") currentXPos = event.touches[0].clientX
-  if (event.type == "mousemove") currentXPos = event.clientX
-  if (target.isActive) {
-    if (window.innerWidth > 768) return
-    if (lastCursorX == null) {
-      lastCursorX = currentXPos
-      return
-    }
-    let xCursorDif = currentXPos - lastCursorX
-    if (xCursorDif > 0 || xCursorDif < 0) stopScroll()
-    lastCursorX = currentXPos
+// function moveHandler(event) {
+//   let target = event.currentTarget
+//   if (event.type == "touchmove") currentXPos = event.touches[0].clientX
+//   if (event.type == "mousemove") currentXPos = event.clientX
+//   if (target.isActive) {
+//     if (window.innerWidth > 768) return
+//     if (lastCursorX == null) {
+//       lastCursorX = currentXPos
+//       return
+//     }
+//     let xCursorDif = currentXPos - lastCursorX
+//     if (xCursorDif > 0 || xCursorDif < 0) stopScroll()
+//     lastCursorX = currentXPos
     
-    const translateX = new WebKitCSSMatrix(target.style.transform).e
-    const newValue = translateX + (xCursorDif*2)
-    if (newValue <= 0 && newValue >= (-1 * target.clientWidth + 300)) target.style.transform = `translateX(${newValue}px)`
-    startScroll()
-  }
-}
+//     const translateX = new WebKitCSSMatrix(target.style.transform).e
+//     const newValue = translateX + (xCursorDif*2)
+//     if (newValue <= 0 && newValue >= (-1 * target.clientWidth + 300)) target.style.transform = `translateX(${newValue}px)`
+//     startScroll()
+//   }
+// }
 
-// Reset the positioning when elements go from list (mobile) to desktop
-window.onresize = function() {
-  if (window.innerWidth > 768) 
-    draggableItems.forEach(element => element.style.transform = `translateX(0px)`)
-}
+// // Reset the positioning when elements go from list (mobile) to desktop
+// window.onresize = function() {
+//   if (window.innerWidth > 768) 
+//     draggableItems.forEach(element => element.style.transform = `translateX(0px)`)
+// }
 
-// Prevents the drag to continue when mouseout is out of the screen
-document.addEventListener('mouseout', _ => draggableItems.forEach(element => element.isActive = false))
+// // Prevents the drag to continue when mouseout is out of the screen
+// document.addEventListener('mouseout', _ => draggableItems.forEach(element => element.isActive = false))
 
 // FIGURE LINKS
 document.querySelectorAll('.js-figure-link').forEach((l) => {
