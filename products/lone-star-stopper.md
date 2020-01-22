@@ -1,6 +1,6 @@
 ---
 id: "3"
-title: Test Star Stopper
+title: Test Star Stopper 2
 description: Suspendisse efficitur eget erat sit amet efficitur.
 price: '99.00'
 images:
