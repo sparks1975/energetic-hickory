@@ -694,3 +694,21 @@ document.querySelectorAll('.js-figure-link').forEach((l) => {
     }
   });
 });
+
+// Custom Price
+
+$('#my-size').change(function () {
+  $('#my-button').data('item-custom1-value', $(this).val());
+});
+
+$('#my-size-pen').change(function () {
+  $('#my-button-pen').data('item-custom1-value', $(this).val());
+});
+
+$('#my-small-size').change(function () {
+  $('#my-small-button').data('item-custom1-value', $(this).val());
+});
+
+$('#my-small-size-pen').change(function () {
+  $('#my-small-button-pen').data('item-custom1-value', $(this).val());
+});

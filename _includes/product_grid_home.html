@@ -7,8 +7,11 @@
                 
                 {% include picture.html image=product_page.images.default.thumbnail alt=product_page.title cssClass='product-grid__item-image' %}
                 <figcaption>
-                    
+                    {% if product_page.category == "pens" %}
+                    {% include small_buy_button_pen.html product_page=product_page component='product-grid' %}
+                    {% else %}
                     {% include small_buy_button.html product_page=product_page component='product-grid' %}
+                    {% endif %}
                 </figcaption>
             </figure>
             <div class="product-grid__definition">

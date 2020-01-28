@@ -35,7 +35,12 @@ layout: body
                     {{ page.description }}
                 </article>
 
+                {% if page.category == "pens" %}
+                {% include buy_button_pen.html product_page=page %}
+                {% else %}
                 {% include buy_button.html product_page=page %}
+                {% endif %}
+
             </div>
         </section>
 
