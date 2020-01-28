@@ -2,7 +2,7 @@
 id: "3"
 title: Lone Star Stopper
 description: Suspendisse efficitur eget erat sit amet efficitur.
-price: '99.00'
+price: '25.00'
 images:
   default:
     thumbnail:
