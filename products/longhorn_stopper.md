@@ -3,7 +3,7 @@ id: "2"
 title: Longhorn Stopper
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit
   velit lectus, vitae efficitur quam mollis eget. Integer porta at nisl eget tincidunt.
-price: '49.40'
+price: '25.00'
 images:
   default:
     thumbnail:
