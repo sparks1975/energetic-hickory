@@ -20,7 +20,7 @@ images:
       optimized: "/images/pen-30-21.jpg"
       fallback: "/images/pen-30-22.jpg"
 category: ''
-featured: false
+featured: true
 section: ''
 
 ---
