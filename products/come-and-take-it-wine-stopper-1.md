@@ -3,7 +3,7 @@ layout: product
 id: "7"
 title: Texas Star Wine Stopper
 description: Texas Star Wine Stopper
-price: "28"
+price: '28.00'
 images:
   default:
     thumbnail:
