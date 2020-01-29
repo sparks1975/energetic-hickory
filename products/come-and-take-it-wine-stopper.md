@@ -3,7 +3,7 @@ layout: product
 id: "4"
 title: Come And Take It Wine Stopper
 description: Come And Take It Wine Stopper
-price: "$28"
+price: "28"
 images:
   default:
     thumbnail:
