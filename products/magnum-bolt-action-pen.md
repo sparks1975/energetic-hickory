@@ -1,9 +1,9 @@
 ---
 layout: product
-id: "6"
-title: Magnum Bolt Action Pen
-description: Magnum Bolt Action Pen
-price: '48.00'
+id: "5"
+title: ".30 Cal Bolt Action Pen"
+description: ".30 Cal Bolt Action Pen"
+price: '45.00'
 images:
   default:
     thumbnail:
@@ -22,9 +22,8 @@ images:
 category: pens
 featured: false
 section: Store
-published: false
 
 ---
-# Magnum Bolt Action Pen
+# .30 Cal Bolt Action Pen
 
 This ballpoint rifle bullet pen features solid materials and construction. Bolt action engagement. Features rifle pocket clip.
