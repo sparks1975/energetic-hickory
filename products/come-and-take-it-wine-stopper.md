@@ -2,7 +2,10 @@
 layout: product
 id: "4"
 title: Come And Take It Wine Stopper
-description: Come And Take It Wine Stopper
+description: This "Come and Take It" wine stopper will keep your wine beverage tasting
+  just as good as the day you opened the bottle. Made of high quality wood, metal
+  and silicone. Safe and durable. Won't crack, rust or fade. Available in standard
+  and .50 Cal base (+ $3.00). Select size at checkout.
 price: '28.00'
 images:
   default:
