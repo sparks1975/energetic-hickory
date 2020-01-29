@@ -7,11 +7,11 @@ price: '45.00'
 images:
   default:
     thumbnail:
-      optimized: "/images/pen-30.jpg"
-      fallback: "/images/pen-30.jpg"
+      optimized: "/images/pen-30-1.jpg"
+      fallback: "/images/pen-30-2.jpg"
     original:
-      optimized: "/images/pen-30.jpg"
-      fallback: "/images/pen-30.jpg"
+      optimized: "/images/pen-30-5.jpg"
+      fallback: "/images/pen-30-6.jpg"
   featured:
     thumbnail:
       optimized: ''
