@@ -1,7 +1,7 @@
 ---
 id: "1"
-title: Texas Seal Stopper
-description: Nulla diam diam, maximus gravida efficitur eu, ultricies quis orci.
+title: Texas State Seal Stopper
+description: Texas State Seal Stopper
 price: '25.00'
 images:
   default:
@@ -24,6 +24,6 @@ section: Store
 layout: product
 
 ---
-# Texas Seal Stopper
+# Texas State Seal Stopper
 
-Vestibulum blandit sem mattis metus blandit pharetra at at ipsum. Vestibulum luctus quis turpis ac sollicitudin. Etiam ultricies pharetra velit. Nulla diam diam, maximus gravida efficitur eu, ultricies quis orci. Donec congue pharetra massa, ut venenatis nibh volutpat vel. Quisque eu sapien arcu. Nunc feugiat dictum tincidunt. Etiam sodales tellus tempus auctor vehicula. Praesent eget sapien dignissim, vehicula quam id, vehicula libero. Fusce sagittis gravida nulla ac bibendum. Duis lacinia egestas fringilla. Fusce quis metus semper, molestie massa finibus, laoreet magna. Aliquam gravida ipsum id nisl efficitur aliquam.
+This Texas State Seal wine stopper will keep your wine beverage tasting just as good as the day you opened the bottle. Made of high quality wood, metal and silicone. Safe and durable. Won't crack, rust or fade. Available in standard and .50 Cal base (+ $3.00). Select size at checkout.
