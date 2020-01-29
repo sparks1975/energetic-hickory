@@ -2,8 +2,8 @@
   "title": "Handcrafted, rustic style. Affordable pricing.",
   "subtitle": "from $49.99",
   "image": {
-    "optimized": "/images/promo-1.jpg",
-    "fallback": "/images/promo-1.jpg"
+    "optimized": "/images/promo-2.jpg",
+    "fallback": "/images/promo-3.jpg"
   },
   "cta": {
     "text": "Discover",
