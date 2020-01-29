@@ -1,7 +1,7 @@
 ---
 id: "3"
 title: Lone Star Stopper
-description: Suspendisse efficitur eget erat sit amet efficitur.
+description: Lone Star Stopper
 price: '25.00'
 images:
   default:
@@ -26,4 +26,4 @@ layout: product
 ---
 # Lone Star Stopper
 
-Aliquam quis laoreet lectus. Proin non mattis nulla, quis posuere mi. Mauris venenatis, magna at pellentesque commodo, lectus risus vehicula elit, nec dignissim nisl sapien id leo. Nulla non pretium metus, vitae finibus lectus. Aliquam in posuere risus.
+This Lone Star wine stopper will keep your wine beverage tasting just as good as the day you opened the bottle. Made of high quality wood, metal and silicone. Safe and durable. Won't crack, rust or fade. Available in standard and .50 Cal base (+ $3.00). Select size at checkout.
