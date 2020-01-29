@@ -2,7 +2,8 @@
 layout: product
 id: "5"
 title: ".30 Cal Bolt Action Pen"
-description: ".30 Cal Bolt Action Pen"
+description: This ballpoint rifle bullet pen features solid materials and construction.
+  Bolt action engagement. Features rifle pocket clip.
 price: '45.00'
 images:
   default:
