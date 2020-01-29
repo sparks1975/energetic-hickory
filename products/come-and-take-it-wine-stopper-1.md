@@ -1,7 +1,7 @@
 ---
 layout: product
 id: "7"
-title: Come And Take It Wine Stopper
+title: Texas Star Wine Stopper
 description: Texas Star Wine Stopper
 price: "$28"
 images:
