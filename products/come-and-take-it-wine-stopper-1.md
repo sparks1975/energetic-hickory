@@ -20,7 +20,7 @@ images:
       optimized: "/images/stopper-texas-star-6.jpg"
       fallback: "/images/stopper-texas-star-7.jpg"
 category: wine-stoppers
-featured: true
+featured: false
 section: Store
 
 ---
