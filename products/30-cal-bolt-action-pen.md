@@ -19,9 +19,9 @@ images:
     original:
       optimized: "/images/pen-30-21.jpg"
       fallback: "/images/pen-30-22.jpg"
-category: ''
+category: pens
 featured: true
-section: ''
+section: Store
 
 ---
 # .30 Cal Bolt Action Pen
