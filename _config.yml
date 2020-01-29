@@ -32,8 +32,8 @@ palettes:
       bg_image_secondary_fallback: "/images/logo-symbol-light.svg"
       bg_image_product_optimized: "/images/logo-symbol.svg"
       bg_image_product_fallback: "/images/logo-symbol.svg"
-      bg_image_cart_optimized: "/images/cart-bg.webp"
-      bg_image_cart_fallback: "/images/header.jpg"
+      bg_image_cart_optimized: "/images/hero.jpg"
+      bg_image_cart_fallback: "/images/hero.jpg"
 sass:
   style: nested
   precision: 10
