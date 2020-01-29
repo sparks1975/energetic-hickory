@@ -2,7 +2,8 @@
 layout: product
 id: "6"
 title: Magnum Bolt Action Pen
-description: Magnum Bolt Action Pen
+description: This ballpoint rifle bullet pen features solid materials and construction.
+  Bolt action engagement. Features rifle pocket clip.
 price: '48.00'
 images:
   default:
