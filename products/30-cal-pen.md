@@ -20,7 +20,7 @@ images:
       optimized: ''
       fallback: ''
 category: pens
-featured: false
+featured: true
 section: Store
 
 ---
