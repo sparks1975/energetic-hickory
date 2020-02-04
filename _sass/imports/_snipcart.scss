@@ -22,6 +22,18 @@
         border-radius: $spacing--unit;
     }
 
+    &-cart-button__content {
+        color: #fff;
+    }
+
+    &-cart-button--secondary {
+        background-color: $color_active;
+
+        .snipcart__icon path {
+            fill: #fff;
+        }
+    }
+
     &-cart-header {
         background-color: transparent;
     }
